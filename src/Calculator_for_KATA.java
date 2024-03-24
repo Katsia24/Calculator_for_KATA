@@ -1,7 +1,7 @@
 import java.io.IOException;
 import java.util.Scanner;
 
-public class Main {
+public class Calculator_for_KATA {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int n = 0, r = 0;
