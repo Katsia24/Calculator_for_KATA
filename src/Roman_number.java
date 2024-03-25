@@ -7,9 +7,6 @@ enum Roman_number {
         this.arab = arab;
     }
     public static String roman(int arab1) {
-//        if( arab1 <= 0) { // обрабатывается в main
-//            throw new IllegalArgumentException();
-//        }
         StringBuilder buf = new StringBuilder();
         final Roman_number[] values = Roman_number.values();
         for (int i = values.length - 1; i >= 0; i--) {
@@ -20,10 +17,6 @@ enum Roman_number {
         }
         return buf.toString();
     }
-//    public static int romanToArab (String rom) {
-//            }
-//        return arab;
-//    }
 
     public static String getRom(int arab) {
         return roman(arab);
