@@ -86,7 +86,6 @@ class Element {
                             return  "Ввод только от 1 до 10";
                         }
                     }
-                    // with int
                     switch (el) {
                         case ("*"):
                             for(int i = 0; i < bInt; i++){
