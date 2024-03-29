@@ -1,8 +1,7 @@
-import javax.crypto.spec.PSource;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class Calculator_for_KATA {
+public class Alt_Calculator_for_KATA {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.println("Input:");
